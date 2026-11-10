@@ -1,0 +1,29 @@
+{
+ "scripts": [
+  "ccfmodel.py",
+  "ccffit2.py",
+  "verify_theory.py",
+  "verify_importance.py",
+  "studyC.py",
+  "studyE.py",
+  "studyD.py",
+  "analyze_sims.py",
+  "make_tokens.py",
+  "sfig.py",
+  "fetch_comtrade.sh",
+  "app_build.py",
+  "app_events.py",
+  "app_model2.py",
+  "app_v07_calendar.py",
+  "app_v07_main.py",
+  "app_v07_bootstrap.py",
+  "app_v07_priors.py",
+  "tokens_v07.py",
+  "figstyle.py",
+  "fig1_framework.py",
+  "fig4_workflow.py",
+  "figs_v2.py",
+  "figs_v3.py",
+  "figs_v07.py"
+ ]
+}

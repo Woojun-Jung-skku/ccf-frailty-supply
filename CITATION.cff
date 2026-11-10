@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper and this repository."
+title: "ccf-frailty-supply: code, data panel and results for 'Suppliers that fail together'"
+type: software
+authors:
+  - family-names: "Jeon"
+    given-names: "Sungjin"
+    affiliation: "Graduate School of Management of Technology, Sungkyunkwan University"
+  - family-names: "Jung"
+    given-names: "Woojun"
+    affiliation: "Graduate School of Management of Technology, Sungkyunkwan University"
+    email: "woojun124@skku.edu"
+abstract: "Code, the assembled stream-month panel, the replication-level results of the simulation studies, the results of the case study and the figure scripts for the manuscript 'Suppliers that fail together: a common-cause frailty model and importance decomposition for supply-system reliability'. Raw UN Comtrade records are not redistributed; the extraction script retrieves them from the public API."
+keywords:
+  - common-cause failure
+  - shared frailty
+  - joint reliability importance
+  - epistemic uncertainty
+  - supply disruption
+  - semiconductor supply chain
+version: "1.0.0"
+date-released: "2026-11-10"
+license: MIT
+repository-code: "https://github.com/Woojun-Jung-skku/ccf-frailty-supply"
