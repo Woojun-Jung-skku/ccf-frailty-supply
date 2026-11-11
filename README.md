@@ -4,7 +4,7 @@ Code, assembled data panel, replication-level results and figures for
 
 > Sungjin Jeon and Woojun Jung (equal contribution). *Suppliers that fail together: a common-cause frailty model and importance decomposition for supply-system reliability.* Submitted to *Reliability Engineering & System Safety* (special issue *Reliability of complex systems with multi-source uncertain information*), 2026.
 
-The paper adds a shared gamma frailty per common-cause group and period to the gamma–Poisson stream model of the companion paper by the same authors (*From wafer defects to supply shocks*). Everything the paper reports in Sections 4 and 5, its seven figures and the supplementary material S2, S3 and S5–S7 can be regenerated from this repository.
+The paper adds a shared gamma frailty per common-cause group and period to a gamma–Poisson model of the individual supply streams (the item model of Section 2.1). Everything the paper reports in Sections 4 and 5, its seven figures and the supplementary material S2, S3 and S5–S7 can be regenerated from this repository.
 
 ## Layout
 

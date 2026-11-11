@@ -18,7 +18,7 @@ keywords:
   - epistemic uncertainty
   - supply disruption
   - semiconductor supply chain
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-11-11"
 license: MIT
 repository-code: "https://github.com/Woojun-Jung-skku/ccf-frailty-supply"
