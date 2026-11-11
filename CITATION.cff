@@ -19,6 +19,6 @@ keywords:
   - supply disruption
   - semiconductor supply chain
 version: "1.0.0"
-date-released: "2026-11-10"
+date-released: "2026-11-11"
 license: MIT
 repository-code: "https://github.com/Woojun-Jung-skku/ccf-frailty-supply"
