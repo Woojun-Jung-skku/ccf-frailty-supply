@@ -18,6 +18,8 @@
   "app_v07_main.py",
   "app_v07_bootstrap.py",
   "app_v07_priors.py",
+  "app_v08_detection.py",
+  "app_v08_power.py",
   "tokens_v07.py",
   "figstyle.py",
   "fig1_framework.py",

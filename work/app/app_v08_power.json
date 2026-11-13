@@ -1,0 +1,148 @@
+{
+ "cutoff": 2.705543454095404,
+ "pair_rule": {
+  "China": {
+   "information": 9.76997864420207,
+   "se_theta": 0.31992869373446176,
+   "power_local": {
+    "0.5": 0.9999979528722719,
+    "1": 0.9306757762808235,
+    "2": 0.46732121991956804,
+    "5": 0.15393198270869024
+   }
+  },
+  "Japan": {
+   "information": 6.888254332151221,
+   "se_theta": 0.38101792977123555,
+   "power_local": {
+    "0.5": 0.9998434680843862,
+    "1": 0.8363815978238249,
+    "2": 0.36972588854503885,
+    "5": 0.1313688248218703
+   }
+  },
+  "USA": {
+   "information": 29.595473437354507,
+   "se_theta": 0.1838177111686893,
+   "power_local": {
+    "0.5": 1.0,
+    "1": 0.999926273000362,
+    "2": 0.858864668564963,
+    "5": 0.28882548583557666
+   }
+  }
+ },
+ "simulated": {
+  "0.5": {
+   "n": 100,
+   "seeds": [
+    106
+   ],
+   "China": {
+    "reject": 0.95,
+    "median_ac_hat": 0.5300741948060839,
+    "share_at_boundary": 0.0
+   },
+   "Japan": {
+    "reject": 0.89,
+    "median_ac_hat": 0.5622210703769094,
+    "share_at_boundary": 0.0
+   },
+   "USA": {
+    "reject": 1.0,
+    "median_ac_hat": 0.5096412536593471,
+    "share_at_boundary": 0.0
+   },
+   "any_origin": 1.0
+  },
+  "1": {
+   "n": 150,
+   "seeds": [
+    103
+   ],
+   "China": {
+    "reject": 0.62,
+    "median_ac_hat": 1.1493715369960706,
+    "share_at_boundary": 0.02
+   },
+   "Japan": {
+    "reject": 0.6133333333333333,
+    "median_ac_hat": 1.0665247233417783,
+    "share_at_boundary": 0.02666666666666667
+   },
+   "USA": {
+    "reject": 0.94,
+    "median_ac_hat": 1.049777242386119,
+    "share_at_boundary": 0.0
+   },
+   "any_origin": 0.9933333333333333
+  },
+  "2": {
+   "n": 400,
+   "seeds": [
+    101,
+    102
+   ],
+   "China": {
+    "reject": 0.3225,
+    "median_ac_hat": 2.392845722537584,
+    "share_at_boundary": 0.155
+   },
+   "Japan": {
+    "reject": 0.3125,
+    "median_ac_hat": 2.188236453702691,
+    "share_at_boundary": 0.17
+   },
+   "USA": {
+    "reject": 0.7025,
+    "median_ac_hat": 2.147671319703833,
+    "share_at_boundary": 0.0175
+   },
+   "any_origin": 0.865
+  },
+  "5": {
+   "n": 150,
+   "seeds": [
+    104
+   ],
+   "China": {
+    "reject": 0.13333333333333333,
+    "median_ac_hat": 6.634411984706745,
+    "share_at_boundary": 0.29333333333333333
+   },
+   "Japan": {
+    "reject": 0.15333333333333332,
+    "median_ac_hat": 5.382667885361343,
+    "share_at_boundary": 0.30666666666666664
+   },
+   "USA": {
+    "reject": 0.25333333333333335,
+    "median_ac_hat": 6.656471089681091,
+    "share_at_boundary": 0.18
+   },
+   "any_origin": 0.46
+  },
+  "inf": {
+   "n": 150,
+   "seeds": [
+    105
+   ],
+   "China": {
+    "reject": 0.02666666666666667,
+    "median_ac_hat": 9999.99999999999,
+    "share_at_boundary": 0.5933333333333334
+   },
+   "Japan": {
+    "reject": 0.03333333333333333,
+    "median_ac_hat": 9999.99999999999,
+    "share_at_boundary": 0.5333333333333333
+   },
+   "USA": {
+    "reject": 0.05333333333333334,
+    "median_ac_hat": 9999.99999999999,
+    "share_at_boundary": 0.52
+   },
+   "any_origin": 0.11333333333333333
+  }
+ }
+}

@@ -46,7 +46,7 @@ def arrow(p, q, lw=0.8):
 # row 1: data and structure
 stage((0, 1), 1, 'Stage 1  Data')
 stage((2, 3), 1, 'Stage 2  Structure')
-b1 = box(0, 1, 'Trade records', 'UN Comtrade; holiday calendar')
+b1 = box(0, 1, 'Trade records', 'UN Comtrade; lunar calendar')
 b2 = box(1, 1, 'Streams and onsets', 'flow falls below half its median')
 b3 = box(2, 1, 'Common-cause groups', r'origins with $\geq$ 5 streams')
 b4 = box(3, 1, 'Supply structure', r'inputs, sources, shares $\rightarrow$ $\varphi$')

@@ -39,15 +39,15 @@ def row(name, d, n_onsets=None):
     rows.append('| ' + ' | '.join(cells) + ' |')
 
 
-row('All onsets, no holiday term', cal['baseline'])
-row('Holiday month, China group (main model)', cal['holiday']['H1_China'])
-row('Holiday month, all streams', cal['holiday']['H1_all'])
-row('Holiday month and next, China group', cal['holiday']['H2_China'])
-row('Holiday month and next, all streams', cal['holiday']['H2_all'])
+row('All onsets, no calendar term', cal['baseline'])
+row('Lunar New Year month, China group (main model)', cal['holiday']['H1_China'])
+row('Lunar New Year month, all streams', cal['holiday']['H1_all'])
+row('Lunar New Year month and next, China group', cal['holiday']['H2_China'])
+row('Lunar New Year month and next, all streams', cal['holiday']['H2_all'])
 for thr, lab in [('demand75', '75%'), ('demand50', '50%')]:
     s = cal['supply'][thr]
-    row(f'Supply-side onsets ({lab} rule), no holiday term', s, s['n_onsets'])
-    row(f'Supply-side onsets ({lab} rule), holiday month, China group', s['H1_China'], s['n_onsets'])
+    row(f'Supply-side onsets ({lab} rule), no calendar term', s, s['n_onsets'])
+    row(f'Supply-side onsets ({lab} rule), Lunar New Year month, China group', s['H1_China'], s['n_onsets'])
 head = ('| Fit | Onsets | $\\hat\\beta$ (90% interval); LR against $\\beta = 0$ | China: $\\hat\\alpha_c$ (90% interval); LR | Japan: $\\hat\\alpha_c$ (90% interval); LR | United States: $\\hat\\alpha_c$ (90% interval); LR | AIC, frailty − independence |\n'
         '|------------------------|------|---------------|--------------|-------------|--------------|-------|\n')
 tok['TABLE_S5'] = head + '\n'.join(rows)
